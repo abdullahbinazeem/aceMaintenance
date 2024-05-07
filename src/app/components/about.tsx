@@ -5,7 +5,7 @@ import { Trophy } from "lucide-react";
 const About = () => {
   return (
     <Container>
-      <div className="my-40 flex items-center gap-12">
+      <div className="my-40 lg:flex items-center gap-12">
         <div className="flex-1">
           <div>
             <h2 className="text-primary text-medium text-lg tracking-wider uppercase">
@@ -37,7 +37,7 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="flex-1 h-[400px] bg-primary rounded-md"></div>
+        <div className="flex-1 mt-12 lg:mt-0 h-[400px] bg-primary rounded-md"></div>
       </div>
     </Container>
   );
