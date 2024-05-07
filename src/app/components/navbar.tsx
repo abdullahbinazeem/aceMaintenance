@@ -14,9 +14,9 @@ function Navbar() {
         <a className="md:block hidden cursor-pointer">
           <p className="text-gray-500 uppercase">Contact</p>
         </a>
-        <a className="cursor-pointer bg-primary text-white py-4 px-8 rounded-full flex gap-2">
+        <a className="cursor-pointer bg-primary text-white py-3 sm:py-4 px-6 sm:px-8 rounded-full flex gap-2 items-center">
           <MessageCircle />
-          <p>Message Now</p>
+          <p className="text-sm sm:text-base">Message Now</p>
         </a>
       </div>
     </div>

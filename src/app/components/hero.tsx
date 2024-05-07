@@ -14,19 +14,19 @@ const Hero = () => {
         <Navbar />
         <div className="h-[85vh] mb-20 flex flex-col lg:flex-row gap-12">
           <div className="lg:mt-36 mt-14 md:mt-24 lg:flex-1">
-            <h2 className="text-lg uppercase">High Pressional Cleaning</h2>
-            <h1 className="uppercase text-5xl font-bold leading-[110%] text-secondary">
+            <h2 className="sm:text-lg uppercase">High Professional Cleaning</h2>
+            <h1 className="uppercase text-4xl sm:text-5xl font-bold leading-[110%] text-secondary">
               <span className="text-primary">Easy To Clean</span> <br /> House
               and Exteriors
             </h1>
-            <p className="mt-6 text-lg">
+            <p className="mt-6 sm:text-lg">
               The Most Affordable, High-End House and Exterior Cleaning
               <br className="xl:block hidden" /> Provider In Vancouver.
             </p>
             <a className="inline-block mt-6 cursor-pointer">
-              <div className="k bg-primary text-white py-4 px-8 rounded-full flex gap-2">
+              <div className="items-center bg-primary text-white py-4 px-8 rounded-full flex gap-2">
                 <MessageSquareQuote />
-                <p>Get a Quote Now!</p>
+                <p className="text-sm sm:text-base">Get a Quote Now!</p>
               </div>
             </a>
           </div>

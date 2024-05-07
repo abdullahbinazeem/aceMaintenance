@@ -33,19 +33,19 @@ const services = [
 const Services = () => {
   return (
     <Container className="mt-28 mb-40">
-      <h2 className="text-center text-primary text-medium text-lg tracking-wider uppercase">
+      <h2 className="text-center text-primary text-medium sm:text-lg tracking-wider uppercase">
         OUR SERVICES
       </h2>
-      <h1 className="text-center text-secondary text-4xl font-bold mt-4">
+      <h1 className="text-center text-secondary text-3xl sm:text-4xl font-bold mt-4">
         WHAT WE ARE OFFERING
       </h1>
-      <div className="mt-24 grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-6 gap-y-20">
+      <div className="mt-24 grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-6 gap-y-16 sm:gap-y-20">
         {services.map((item, index) => (
           <div
             className="border text-center px-6 pt-16 pb-6 rounded-md relative"
             key={index}
           >
-            <h3 className="text-primary text-xl font-medium mb-4">
+            <h3 className="text-primary text-lg sm:text-xl font-medium mb-1 sm:mb-4">
               {item.title}
             </h3>
             <p className="text-sm">{item.description}</p>
