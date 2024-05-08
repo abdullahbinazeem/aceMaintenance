@@ -30,9 +30,9 @@ const Hero = () => {
               </div>
             </a>
           </div>
-          <div className="relative flex-1 scale-x-[-100%]">
+          <div className="relative flex-1 scale-x-[-100%] z-[-2]">
             <Image
-              src="/assets/cleanhouse.png"
+              src="/assets/cleanhouse.jpg"
               alt="Clean House"
               fill
               objectFit="contain"

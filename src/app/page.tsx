@@ -7,6 +7,7 @@ import Image from "next/image";
 import Portfolio from "./components/portfolio";
 import Booking from "./components/book";
 import Testimonials from "./components/testimonials";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Portfolio />
       <Booking />
       <Testimonials />
+      <Footer />
     </>
   );
 }

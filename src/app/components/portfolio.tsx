@@ -57,7 +57,7 @@ const Portfolio = () => {
         className="mySwiper mt-10"
       >
         {carouselItems.map((item, i) => (
-          <SwiperSlide key={item.url}>
+          <SwiperSlide key={i}>
             <div className="relative aspect-[7/5] w-full bg-[#FFC48D] ">
               <Image
                 fill

@@ -86,7 +86,7 @@ const Testimonials = () => {
         className="mySwiper mt-10"
       >
         {carouselItems.map((item, i) => (
-          <SwiperSlide className="py-10" key={item.url}>
+          <SwiperSlide className="py-10" key={i}>
             <div className="border text-center px-7 pt-16 pb-6 rounded-md relative">
               <div className="absolute w-20 h-20 rounded-full bg-gray-300 border-2 -top-10 left-0 right-0 m-auto"></div>
               <h3 className="text-[#292929] text-lg sm:text-xl font-semibold mb-1 sm:mb-4">
