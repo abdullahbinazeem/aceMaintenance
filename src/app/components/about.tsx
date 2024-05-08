@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./container";
 import { Trophy } from "lucide-react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -28,8 +29,9 @@ const About = () => {
               <Trophy className="text-primary" />
             </div>
             <p className="mt-4 sm:text-lg">
-              Amet minim mollit non sit aliqua dolor do consequat sunt nostrud
-              amet. Amet mollit ullamco aliqua dolo ame.
+              Renowned for our exceptional service and meticulous attention to
+              detail, our award-winning cleaning business sets the standard for
+              excellence in the industry.
             </p>
             <a className="inline-block mt-8 cursor-pointer">
               <div className=" bg-primary text-white py-3 sm:py-4 px-6 sm:px-8 rounded-full flex gap-2">
@@ -38,7 +40,13 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="flex-1 mt-12 lg:mt-0 h-[400px] bg-primary rounded-md"></div>
+        <div className="relative flex-1 mt-12 lg:mt-0 h-[400px] bg-primary rounded-md">
+          <Image
+            alt="About"
+            src="https://static.wixstatic.com/media/8863e0_841b44300a6f4db29135bff0e7b9c909~mv2.jpg/v1/fill/w_640,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8863e0_841b44300a6f4db29135bff0e7b9c909~mv2.jpg"
+            fill
+          />
+        </div>
       </div>
     </Container>
   );

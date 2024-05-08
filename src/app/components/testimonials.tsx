@@ -21,39 +21,39 @@ type Carousel = {
 const carouselItems: Carousel[] = [
   {
     url: "Wall",
-    name: "Abdullah Azeem",
+    name: "Lucas Jones",
     description:
-      "These guys did an Amazing job. Great communication and affordable prices as compared to other cleaners.",
+      "The level of cleanliness achieved by this house cleaning company is unmatched. From the floors to the ceiling, every inch of my home in Victoria was thoroughly cleaned. Highly satisfied!",
   },
   {
     url: "Wall",
-    name: "John Smith",
+    name: "Adam Peterson",
     description:
-      "Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
+      "A friend recommended this cleaning service, and I'm so glad I tried it. The results were outstanding – my house was cleaned to perfection, and the staff was courteous and friendly.",
   },
   {
     url: "Wall",
-    name: "John Smith",
+    name: "Sophia McCarter",
     description:
-      "Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
+      "Impressed with the professionalism and efficiency of this house cleaning company. The team worked quickly without compromising on quality. My Victoria home has never been so clean and organized!",
   },
   {
     url: "Wall",
-    name: "John Smith",
+    name: "William Hernandez",
     description:
-      "Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
+      "Outstanding cleaning service! The crew was friendly, and they paid attention to the areas I highlighted. My house has never been this clean, and I'm grateful for the meticulous work they did.",
   },
   {
     url: "Wall",
-    name: "John Smith",
+    name: "Michael Weaver",
     description:
-      "Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
+      "Hiring this house cleaning company was a game-changer for me. They tackled even the toughest stains and left my house looking brand new. Couldn't be happier with the results!",
   },
   {
     url: "Wall",
-    name: "John Smith",
+    name: "Douglas Holmes",
     description:
-      "Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
+      "Five-star service all the way! The cleaners were prompt, efficient, and left my house in Victoria smelling fresh and looking immaculate. I highly recommend their services.",
   },
 ];
 

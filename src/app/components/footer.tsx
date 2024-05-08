@@ -26,8 +26,8 @@ function Footer() {
               </h1>
             </a>
             <p className="mt-6  text-gray-500 dark:text-gray-400 font-medium ">
-              Amet minim mollit non deserunt ullamc est sit aliqua dolor amet
-              sint. Amet minim mollit non deserunt ullamco est sit aliqua.
+              The Most Affordable, High-End House and Exterior Cleaning Provider
+              In Vancouver.
             </p>
           </div>
           <div className="flex-1 grid grid-cols-2 gap-8 sm:gap-6 md:grid-cols-3">
