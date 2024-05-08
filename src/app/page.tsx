@@ -5,6 +5,8 @@ import Services from "./components/services";
 import Container from "./components/container";
 import Image from "next/image";
 import Portfolio from "./components/portfolio";
+import Booking from "./components/book";
+import Testimonials from "./components/testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <About />
       <Services />
       <Portfolio />
+      <Booking />
+      <Testimonials />
     </>
   );
 }

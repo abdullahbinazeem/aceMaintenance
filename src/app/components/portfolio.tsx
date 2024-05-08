@@ -1,10 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Container from "./container";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,19 +24,11 @@ const carouselItems: Carousel[] = [
     url: "Backyard",
   },
   {
-    url: "",
-  },
-  {
-    url: "",
-  },
-  {
-    url: "",
+    url: "Window",
   },
 ];
 
 const Portfolio = () => {
-  const [index, setIndex] = useState(0);
-
   return (
     <Container className="mt-28 mb-40">
       <h2 className="text-center text-primary text-medium sm:text-lg tracking-wider uppercase">
@@ -67,11 +57,11 @@ const Portfolio = () => {
         className="mySwiper mt-10"
       >
         {carouselItems.map((item, i) => (
-          <SwiperSlide>
+          <SwiperSlide key={item.url}>
             <div className="relative aspect-[7/5] w-full bg-[#FFC48D] ">
               <Image
                 fill
-                alt="works"
+                alt={item.url}
                 src={`/assets/works/${item.url}.jpg`}
                 className="object-cover"
               />
